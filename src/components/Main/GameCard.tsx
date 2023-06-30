@@ -29,7 +29,7 @@ const GameCard = ({ game }: Props) => {
         </Stack>
         <Typography variant="h5">
           <Link
-            style={{ textDecoration: "none", color: "#111" }}
+            style={{ textDecoration: "none", color: "white" }}
             to={"/games/" + game.slug}
           >
             {game.name}

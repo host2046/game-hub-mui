@@ -27,6 +27,7 @@ const SortSelector = () => {
     <div>
       <Button
         sx={{
+          color: "#ccc",
           bgcolor: "#212121",
           ":hover": { bgcolor: "#424242", fontWeight: "bold" },
         }}
