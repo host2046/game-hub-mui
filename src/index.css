@@ -25,3 +25,8 @@ body {
         display: none
     };
 }
+@media (max-width: 899px) {
+    .genre {
+        display: none;
+    }
+}

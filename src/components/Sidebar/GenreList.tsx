@@ -17,7 +17,7 @@ const GenreList = () => {
   if (error) return null;
   if (isLoading) return <CircularProgress />;
   return (
-    <Grid item xs={12}>
+    <Grid item xs={12} className="genre">
       <Typography pl={2} py={3} color="white" variant="h5" fontWeight="bold">
         Genres
       </Typography>
