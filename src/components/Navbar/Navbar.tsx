@@ -2,7 +2,7 @@ import { Stack } from "@mui/material";
 
 import SearchInput from "./SearchInput";
 import { useNavigate } from "react-router-dom";
-
+import aliI from "../../assets/ali.png";
 const Navbar = () => {
   const navigate = useNavigate();
   return (
@@ -11,6 +11,7 @@ const Navbar = () => {
         RAWG
       </Stack>
       <SearchInput />
+      <img className="image" src={aliI} />
     </Stack>
   );
 };
